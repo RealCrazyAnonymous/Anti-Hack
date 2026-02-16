@@ -1,14 +1,6 @@
 @echo off
 echo Starting full security setup...
 
-:: Check for administrator privileges
-net session >nul 2>&1
-if %errorLevel% NEQ 0 (
-    echo Please run this script as an administrator.
-    pause
-    exit
-)
-
 :: Enable Windows Defender and update definitions
 echo Enabling Windows Defender...
 sc config WinDefend start= auto
