@@ -5,3 +5,7 @@ The Anti-Hack.bat is for Windows 11, please run it as Administrator to have it w
 
 
 More Coming Soon!
+
+[If there are any issues, please let us know by clicking or tapping on "Issues" and post there.
+
+Above this sentence is also part of other batch files.]
